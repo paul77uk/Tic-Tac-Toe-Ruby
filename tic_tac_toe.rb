@@ -55,7 +55,7 @@ class Board
     puts player.name + INPUT_MESSAGE
     input = gets.chomp.to_i
     input = error_handling(input)
-    @board_values[input - 1] = player.letter 
+    @board_values[input - 1] = player.letter
   end
 
   def content_line(index1, index2, index3)
